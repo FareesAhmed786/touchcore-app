@@ -9,7 +9,7 @@
           <v-card-item>
             <video id="video" width="480" height="240" ref="videoPlayer" controls="controls" v-if="file!==''">
               <source
-                  src={{file}}
+                  src=""
                   type="video/mp4"
               />
             </video>

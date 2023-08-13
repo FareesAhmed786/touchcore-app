@@ -42,7 +42,7 @@ export default {
   },
   methods: {
     getVideos() {
-      axios.get('http://127.0.0.1:5000/videos').then(response => {
+      axios.get('https://touch-core-api.onrender.com/videos').then(response => {
         this.videos = response.data;
       });
     },

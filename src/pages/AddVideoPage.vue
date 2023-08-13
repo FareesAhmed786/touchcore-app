@@ -60,7 +60,7 @@ export default {
       formData.append('video_file', this.file);
       console.log(formData);
 
-      axios.post('http://localhost:5000/upload',
+      axios.post('https://touch-core-api.onrender.com/upload',
           formData, {
             headers: {
               'Content-Type': 'multipart/form-data'
